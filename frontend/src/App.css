@@ -1,0 +1,70 @@
+/* Home.css */
+.home {
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  
+  border-bottom: 1px solid #ddd;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2e7d32; /* fond vert */
+}
+
+.logo {
+  font-size: 2rem;
+  color: #fff; 
+  transition: background-color 0.3s, color 0.3s;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+.logo:hover {
+  background-color: #2e7d32; /* fond vert au survol */
+  color: #ffffff; /* texte blanc au survol */
+}
+
+.nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #fff; /* couleur du texte sur fond vert */
+  background-color: #2e7d32; /* fond vert */
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+.nav a:hover {
+  background-color: #1b5e20; /* vert plus foncé au survol */
+  color: #e0f2f1; /* couleur du texte au survol */
+}
+
+.main {
+  padding: 2rem;
+}
+
+.welcome h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.cards {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 8px;
+  flex: 1;
+}
+
+.card h3 {
+  margin-bottom: 0.5rem;
+}
